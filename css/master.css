@@ -1,0 +1,25 @@
+.wrapper {
+  border-style: solid; /*remove this line */
+  border-color: red; /*remove this line */
+  display: grid;
+  grid-template-columns: 20vw auto;
+  width: 99vw;
+  height: 99vh;
+}
+.header {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color: rebeccapurple;
+}
+.sidebar {
+  grid-row-start: 2;
+  grid-row-end: 10;
+  background-color: teal;
+}
+.middle {
+  background-color: red;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
